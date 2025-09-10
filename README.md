@@ -93,6 +93,25 @@ Try a mini-project: “Predict hydrophobicity from sequence embeddings.”
     Someone strong in software engineering / DevOps / automation. 
     Strengths: organizing workflow, making sure everything runs smoothly. 
 
- 
+# Startup the code
+## environment
+```
+conda env create -f environment.yml
+conda activate antibody
+```
+## access token for the data
+- go to hugging face, make a account
+- got to 'access tokens', make a read token & copy it
+- in terminal
+```
+pip install -U huggingface_hub
+huggingface-cli login
+```
+it will ask to add token as git credential, i just said Y
+it will promt for your token, pate it there then run 
+```
+hf auth whoami
+```
+ this should print your username
 
  

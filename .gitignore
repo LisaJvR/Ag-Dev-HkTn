@@ -1,0 +1,124 @@
+*/data
+.env
+
+###############################################################################
+# macOS
+###############################################################################
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+###############################################################################
+# VS Code
+###############################################################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# VS Code workspace history / misc
+.history/
+*.code-workspace
+
+###############################################################################
+# Jupyter / IPython
+###############################################################################
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.profile
+.ipython/
+.jupyter/
+
+# Optional: if you export HTML from notebooks
+*.nbconvert.ipynb
+*.nb.html
+
+###############################################################################
+# Python
+###############################################################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual envs
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+conda-env/
+# Pyenv
+.python-version
+
+# Testing / type checking / linters
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+###############################################################################
+# Data, models, outputs (adjust to your repo policy)
+###############################################################################
+# Large or generated artifacts:
+data/
+data/raw/
+data/interim/
+data/tmp/
+outputs/
+results/
+logs/
+tmp/
+*.log
+
+# Model/checkpoint files
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.joblib
+*.pkl
+*.pickle
+
+# Caches
+.cache/
+**/.cache/
+__results__/
+
+#########################################
