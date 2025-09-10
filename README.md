@@ -2,25 +2,16 @@
 
 # Antigen challenge: 
 
-Info: 
-
 Pick one track: 
+- Track 1 (Easiest): 
+    Use an existing model (like TAP, AntiFold, ESM embeddings). 
+    Generate predictions on GDPa1 and submit them. 
+- Track 2 (Harder, but rewarding): 
+    Train your own model using GDPa1 with cross-validation. 
+    Submit your CV predictions. 
 
-Track 1 (Easiest): 
 
-Use an existing model (like TAP, AntiFold, ESM embeddings). 
-
-Generate predictions on GDPa1 and submit them. 
-
-Track 2 (Harder, but rewarding): 
-
-Train your own model using GDPa1 with cross-validation. 
-
-Submit your CV predictions. 
-
- 
-
-5 categories: 
+## 5 categories | highest scores so far: 
 
 Hydrophobicity: 0.42 
 
@@ -32,11 +23,9 @@ Thermo stability: 0.19
 
 Titer: 0.18 
 
-Dataset: 
+## Dataset: 
 
 https://huggingface.co/datasets/ginkgo-datapoints/GDPa1 
-
- 
 
 import pandas as pd 
 
@@ -50,7 +39,7 @@ https://huggingface.co/docs/hub/datasets-pandas
 
  
 
-🧩 Where to Start Practically 
+## 🧩 Where to Start Practically 
 
 Learn Python basics if you haven’t already. 
 
@@ -62,7 +51,7 @@ facebook/esm2 (for embeddings).
 
 Try a mini-project: “Predict hydrophobicity from sequence embeddings.” 
 
-📂 Task Division 
+## 📂 Task Division 
 
 1. Data & Biology Lead 
 
