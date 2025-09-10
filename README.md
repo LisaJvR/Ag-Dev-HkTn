@@ -108,7 +108,7 @@ pip install -U huggingface_hub
 huggingface-cli login
 ```
 it will ask to add token as git credential, i just said Y
-it will promt for your token, pate it there then run 
+it will promt for your token, paste it there then run 
 ```
 hf auth whoami
 ```
