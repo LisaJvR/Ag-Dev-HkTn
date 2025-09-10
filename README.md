@@ -27,17 +27,16 @@ Titer: 0.18
 
 https://huggingface.co/datasets/ginkgo-datapoints/GDPa1 
 
+```
 import pandas as pd 
 
 Login using e.g. huggingface-cli login to access this dataset 
 
 df = pd.read_csv("hf://datasets/ginkgo-datapoints/GDPa1/GDPa1_v1.2_20250814.csv") 
+```
 
-Docs: 
+Docs:  https://huggingface.co/docs/hub/datasets-pandas 
 
-https://huggingface.co/docs/hub/datasets-pandas 
-
- 
 
 ## 🧩 Where to Start Practically 
 
@@ -53,65 +52,46 @@ Try a mini-project: “Predict hydrophobicity from sequence embeddings.”
 
 ## 📂 Task Division 
 
-1. Data & Biology Lead 
+### 1. Data & Biology Lead 
 
-Responsibilities: 
+- Responsibilities: 
+    Understand the 5 developability properties (Hydrophobicity, Self-association, Polyreactivity, Thermostability, Titer). 
+    Preprocess datasets (cleaning sequences, formatting labels). 
+    Perform exploratory data analysis (EDA): distributions, correlations, simple baseline models. 
+    Write documentation for the biological meaning of features (helps in final write-up). 
 
-Understand the 5 developability properties (Hydrophobicity, Self-association, Polyreactivity, Thermostability, Titer). 
-
-Preprocess datasets (cleaning sequences, formatting labels). 
-
-Perform exploratory data analysis (EDA): distributions, correlations, simple baseline models. 
-
-Write documentation for the biological meaning of features (helps in final write-up). 
-
-Best Fit: 
-
-Someone with biology / bioinformatics background. 
-
-Strengths: understanding proteins, interpreting developability. 
+- Best Fit: 
+    Someone with biology / bioinformatics background. 
+    Strengths: understanding proteins, interpreting developability. 
 
  
 
-2. Modeling & ML Engineer 
+### 2. Modeling & ML Engineer 
 
-Responsibilities: 
+- Responsibilities: 
+    Set up embeddings (ESM, ProtBERT, TAP, etc.). 
+    Train ML models (ridge regression, neural networks, transformers). 
+    Run cross-validation, tune hyperparameters, track performance. 
+    Optimize for Spearman correlation on each property. 
 
-Set up embeddings (ESM, ProtBERT, TAP, etc.). 
-
-Train ML models (ridge regression, neural networks, transformers). 
-
-Run cross-validation, tune hyperparameters, track performance. 
-
-Optimize for Spearman correlation on each property. 
-
-Best Fit: 
-
-Someone comfortable with Python, scikit-learn, PyTorch/Hugging Face. 
-
-Strengths: coding, experimenting with ML architectures. 
+- Best Fit: 
+    Someone comfortable with Python, scikit-learn, PyTorch/Hugging Face. 
+    Strengths: coding, experimenting with ML architectures. 
 
  
 
-3. DevOps & Integration Lead 
+### 3. DevOps & Integration Lead 
 
-Responsibilities: 
+- Responsibilities: 
+    Set up GitHub/GitLab for version control. 
+    Ensure reproducibility (requirements.txt, Dockerfile, training scripts). 
+    Handle submission pipeline (convert predictions into required format, test locally). 
+    Write clean documentation and automation (so models can be easily rerun). 
+    Optional: Build a basic dashboard/GUI for monitoring results. 
 
-Set up GitHub/GitLab for version control. 
-
-Ensure reproducibility (requirements.txt, Dockerfile, training scripts). 
-
-Handle submission pipeline (convert predictions into required format, test locally). 
-
-Write clean documentation and automation (so models can be easily rerun). 
-
-Optional: Build a basic dashboard/GUI for monitoring results. 
-
-Best Fit: 
-
-Someone strong in software engineering / DevOps / automation. 
-
-Strengths: organizing workflow, making sure everything runs smoothly. 
+- Best Fit: 
+    Someone strong in software engineering / DevOps / automation. 
+    Strengths: organizing workflow, making sure everything runs smoothly. 
 
  
 
